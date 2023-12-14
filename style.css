@@ -1,0 +1,25 @@
+/* Styles for card header */
+.card .card-header {
+    background-image: linear-gradient(gray, rgb(94, 81, 81)); /* Background gradient from gray to dark red-brown */
+    color: beige; /* Text color set to beige */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(89, 61, 61, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; /* Multiple layer box shadow for a shadow effect */
+}
+
+/* Styles for card */
+.card {
+    background-image: linear-gradient(#2b2533, #332955); /* Background gradient from dark purple to dark blue */
+}
+
+/* Styles for images */
+img {
+    width: 500px; /* Set width of images to 500px */
+    height: 500px; /* Set height of images to 500px */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; /* Box shadow for images with a border and inset shadow */
+}
+
+/* Media query for screens with a maximum width of 567px */
+@media (max-width: 567px) {
+    img {
+        width: 90%; /* Adjust image width to 90% for smaller screens */
+    }
+}
